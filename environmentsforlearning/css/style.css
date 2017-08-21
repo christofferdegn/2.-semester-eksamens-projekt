@@ -1,0 +1,750 @@
+#thumbnailcontainer {
+    padding-top: 50px;
+}
+
+#introheader {
+    background: url(../site1/images/thumbnail.png) no-repeat center;
+    background-size:auto;
+}
+
+.navbarimage {
+    text-align: center;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    max-width:  200px;
+    margin-top: 10px;
+    min-width: 200px;
+}
+
+#logincol {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+.loginli {
+    font-size: 0em; 
+}
+
+#logo {
+    min-width: 150px;
+}
+}
+
+
+.glyphicon {
+    margin-left: 20px;
+}
+@media screen and (max-width: 767px){
+    #myBtn2 {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+    #myBtn {
+        display: none;
+    }
+}
+
+#navcontainer {
+    padding-left: -20px !important;
+}
+ 
+#navcol1 {
+    padding-left: -25   px !important;
+}
+#navcol3 {
+    padding-left: -15px !important;
+}
+
+#navrow {
+    margin-top: 10px;
+    margin-left: -20px;
+    background-color: #779ECC;
+    height: 66px;
+}
+
+@media screen and (max-width: 768px) {
+ #navrow {
+    background-color: white;
+}
+}
+
+.button {
+    background-color: #779ECC;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif, 'thin';
+
+}
+
+.button2 {
+    background-color: #779ECC; 
+    color: white; 
+    border: 2px solid #779ECC;
+    border-radius: 15px;
+}
+
+.button2:hover {
+    background-color: #ADC6CE;
+    color: white;
+}
+
+#koncept #button2koncept {
+    background-color: #FFB247;
+}
+
+#produkter #button2produkter {
+    background-color: #FFB247;
+}
+
+#baggrund #button2baggrund {
+    background-color: #FFB247;
+}
+
+#kontakt #button2kontakt {
+    background-color: #FFB247;
+}
+
+@media screen and (max-width: 767px) {
+.button {
+    background-color: #779ECC; /* Green */
+    border: thick 20px;
+    color: white;
+    padding: 16px 25%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    min-width: 145px;
+    border-color: white;   
+}
+
+#navrow {
+    height: 126px;  
+}
+
+}
+
+img {
+    width: 50%;
+}
+
+#modalcontainer {
+    width: 80;
+}
+
+/* index */
+
+#myCarousel {
+    width: 100%;
+}
+
+.carousel-caption {
+    bottom: 160px;
+    font-family: 'Droid Serif', serif;
+}
+
+@media screen and (max-width: 991px) {
+.carousel-caption {
+    bottom: 100px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.carousel-caption {
+    bottom: 2000px;
+}
+}
+
+
+#carouselcontainer {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: auto;
+}
+
+.itemtitle {
+    font-size: 5em;
+}
+
+.itemparagraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    background-color: rgba(249, 178, 76, 0.5);
+}
+
+.itemlink {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #FFB247;
+    font-size: 1.5em;
+    background-color: white;
+    border-radius: 15px;
+    width: 25%;
+    margin: auto;
+}
+
+.itemlinktext {
+    color: black;
+}
+
+#indextextcol {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#indextext {
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    font-size: 1.8em;
+
+}
+
+/* /index */
+
+/* koncept */
+
+#konceptcontainer {
+    width: 100%;
+
+}
+
+#koncepttitle1 {
+    top: 20%;
+    
+}
+
+#koncepttext1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    width: 100%;
+    margin: auto;
+    font-family: 'Droid Serif', serif;
+    font-size: 3em;
+    
+}
+
+#koncepttext2 {
+    background-color: rgba(119, 158, 204, 0.6);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 200%;
+}
+
+#konceptcontainer2 {
+    width: 100%;
+}
+
+#koncepttitle2 {
+    top: 30%;
+}
+
+#koncepttext21 {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    width: 70%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif, 'thin';
+    font-size: 2.5em;
+    color: black;
+}
+    
+#koncepttext22 {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif, 'thin';
+    line-height: 200%;
+    color: black;
+}
+
+#konceptcontainer2 {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#konceptimage2 {
+    width: 80%;
+    margin-right: 20%;
+    border: 2px solid #779ECC;
+    border-radius: 15px;
+}
+
+#konceptarrow1 {
+    margin-left: 40%;
+    width: 20%;
+    margin-top: 10%;
+
+}
+
+#koncepttext3 {
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: 'Droid Serif', serif; 
+    font-size: 2.5em;
+    color: #779ECC;
+}
+
+#koncepttext4 {
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.konceptskole {
+    text-align: center;
+    font-family: 'Droid Serif', serif;
+}
+
+#konceptskoletitle {
+    color: #779ECC;
+}
+
+.konceptskoletext
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.konceptskoleimage {
+    width: 80%;
+    text-align: center;
+    border: thick 20px;
+    border-color: #FFB247;
+}
+
+.konceptlinktext {
+  border-radius: 20px;
+  background-color: #779ECC;
+  border: 1px solid #779ECC;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+/* /koncept */
+
+/* konceptskole */
+
+.konceptskolecontainer {
+    font-family: 'Droid Serif', serif;
+    font-size: 3em;
+}
+
+
+#grauballeskoletext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    float: left;
+
+}
+
+#videograuballe {
+    float: left;
+}
+
+/* /konceptskole */
+
+/* footer */
+
+#footercontainer {
+    margin-top: 200px;
+    margin-left: -15px !important;
+    background-color: #23425c;
+    color: white;
+
+
+}
+
+#footerlogo {
+    margin-left: 20px;
+    text-align: left;   
+    max-width: 150px;
+    padding-top: 20px;  
+}
+
+@media screen and (min-width: 991px) {
+    #footerlogo {
+        margin-left: 150px;
+    }
+}
+
+#footerrow {
+    text-align: center;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 991px) {
+    #footerrow {
+        text-align: left;
+    }
+}
+
+
+/* /footer */
+
+/* produkter */
+
+.produkt {
+    text-align: center;
+    font-family: 'Droid Serif', serif;
+    margin-bottom: 10%;
+    border: 2px solid #779ECC;
+    border-radius: 5px;
+    margin: 1.25%;
+    width: 30%;
+    height: 70%;
+    padding: 10px;
+
+}
+
+.produktimage {
+    margin: auto;
+    text-align: left;
+}
+
+
+
+.produkttitel {
+    font-family: 'Droid Serif', serif;
+}
+
+#pdficon {
+    width: 10%;
+}
+
+/* /produkter */
+
+/* produkt1 */
+
+.produktside {
+    font-family: 'Droid Serif', serif;
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+
+.produktside {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    margin: auto;
+}
+    
+
+
+.produktsidetitel {
+    font-size: 2.5em;
+    text-align: left;
+}
+
+
+.mutesofaen {
+    float: left;
+}
+
+.mutesofaer {
+    float: left;
+    width: 30%;
+}
+
+#mutesofatext {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#video {
+    margin-top: 15%;
+    margin-left: 15%;
+    width: 100%;
+}
+
+.videotext {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.produkttext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    margin-top: 20px;
+
+
+}
+
+/* /produkt1 */
+
+/* baggrund */
+
+#baggrundcol{
+    text-align: center;
+}
+
+#baggrundimage {
+    width: 50%;
+    float: left;
+    margin-top: 30%;
+    
+}
+
+#baggrundtextcol {
+    text-align: center;
+    font-size: 3em;
+}
+
+#baggrundcitat {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-top: 30%;
+    color: #FFB247;
+
+}
+
+#baggrundcontainer2 {
+    width: 300px;
+    border: 15px solid #FFB247;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 25px;
+    float: right;
+}
+
+
+#baggrundcitat2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #779ECC;
+}
+#samarbejdetitel {
+    font-family: 'Droid Serif', serif;
+    font-size: 1.5em;
+    float: right;
+    
+}
+
+.samarbejdeliste {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.2em;
+    float: right;
+   
+}
+
+#baggrundarrow {
+    margin-left: 20%;
+    width: 10%;
+  
+
+}
+
+#baggrundtekst {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    float: left; 
+    border: thick 20px;
+    border-color: #FFB247;
+    margin-top: 10%;
+  
+}
+
+.baggrundli {
+    padding-right: 30px;
+}
+
+/* /baggrund/ */
+
+/* kontakt */
+
+#kontaktcontainer {
+    margin-top: 50px;
+    margin-bottom: 75px;
+    font-family: 'Droid Serif', serif;
+}
+
+#kontaktimage {
+    text-align: center;
+}
+
+#kontaktoverskrift {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #FFB247;
+}
+
+#kontakttext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #23425c;
+}
+
+#kontaktinfo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+    color: #779ECC;
+}
+
+#kontaktformcontainer {
+    margin-top: 10%;    
+}
+
+.kontaktformularsection {
+    width: 100%; 
+    font-family: 'Roboto', sans-serif;
+    padding: 12px;   
+    border: 1px solid #FFB247; 
+    border-radius: 25px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+
+#sendbutton {
+    color: none;
+    padding: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif, 'thin';
+}
+
+#kontaktformulartext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+  
+}
+
+#googlemap {
+    margin-top: 2%;
+}
+
+.kontaktform {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+input, textarea {
+   text-rendering: auto;
+   font-family: 'Roboto', sans-serif;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 11px system-ui;
+    width: 100%;  
+    margin-top:20px; 
+}
+
+input {
+    height: 30px;
+}
+
+/* /kontakt */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myBtn {
+    margin-top: 5px;
+    float: right;
+    width: 150px;
+    height: 30px;
+    text-align: right;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: none !important;
+    background-color: #ADC6CE
+}
+
+#myBtn2 {
+    float: right;
+    width: 150px;
+    height: 30px;
+    text-align: right;
+    border-radius: 15px;
+    border: none !important;
+    background-color: #ADC6CE;
+}
+
+input [type-text] {
+    width: 100%;
+}
